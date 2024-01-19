@@ -66,9 +66,9 @@ namespace SpecFlowBDDAutomationFramework.Hooks
                 .ControlledBy(levelSwitch)
                 .WriteTo.File(new JsonFormatter(), reportpath + @"\Logs").CreateLogger();
             //outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff} | {Level:u3} | {Message} {NewLine}",
-            //rollingInterval: RollingInterval.Day).CreateLogger();
-
-
+                        //rollingInterval: RollingInterval.Day).CreateLogger();
+                        
+        
 
         }
 
