@@ -61,7 +61,7 @@ namespace SpecFlowBDDAutomationFramework.Hooks
 
 
            
-            LoggingLevelSwitch levelSwitch = new LoggingLevelSwitch(LogEventLevel.Debug);
+            LoggingLevelSwitch levelSwitch = new LoggingLevelSwitch(LogEventLevel.Information);
             Log.Logger = new LoggerConfiguration().MinimumLevel
                 .ControlledBy(levelSwitch)
                 .WriteTo.File(new JsonFormatter(), reportpath + @"\Logs", 
