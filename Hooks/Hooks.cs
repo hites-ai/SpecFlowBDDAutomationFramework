@@ -62,11 +62,11 @@ namespace SpecFlowBDDAutomationFramework.Hooks
 
            
             LoggingLevelSwitch levelSwitch = new LoggingLevelSwitch(LogEventLevel.Information);
-            Log.Logger = new LoggerConfiguration().MinimumLevel
-                .ControlledBy(levelSwitch)
-                .WriteTo.File(new JsonFormatter(), reportpath + @"\Logs", 
-                outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff} | {Level:u3} | {Message} {NewLine}", 
-                rollingInterval: RollingInterval.Day).CreateLogger();
+            //Log.Logger = new LoggerConfiguration().MinimumLevel
+               // .ControlledBy(levelSwitch)
+                //.WriteTo.File(new JsonFormatter(), reportpath + @"\Logs", 
+                //outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff} | {Level:u3} | {Message} {NewLine}", 
+                //rollingInterval: RollingInterval.Day).CreateLogger();
          
 
         }
