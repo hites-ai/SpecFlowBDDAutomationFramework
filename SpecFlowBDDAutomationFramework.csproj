@@ -39,6 +39,7 @@
 
   <ItemGroup>
     <Folder Include="Drivers\" />
+    <Folder Include="Data\" />
   </ItemGroup>
 
   <ItemGroup>
